@@ -27,8 +27,8 @@ class Product_sizeController extends Controller
             'qty' => 'required',
         ],
         [  
-            'size.required'=>'Vui long nhap size san pham',
-            'qty.required'=>'Vui long nhap so luong',
+            'size.required'=>'Vui lòng nhập size sản phẩm',
+            'qty.required'=>'Vui lòng nhập số lượng',
         ]);
         $product = Product::find($id);
         $product_size = new Product_size;
