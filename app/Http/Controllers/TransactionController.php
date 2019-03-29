@@ -25,6 +25,6 @@ class TransactionController extends Controller
         $trans = Transaction::find($id);
         $trans->status = $request->status;
         $trans->save();
-        return redirect('admin/transaction/list')->with('thongbao','Đã cập nhật đơn hàng thành công.');
+        return redirect('admin/transaction/list')->with('thongbao','Da cap nhat don hang thanh cong.');
     }
 }
