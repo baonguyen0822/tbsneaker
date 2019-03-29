@@ -25,13 +25,11 @@ class Product_imgController extends Controller
        $product_img = Product_img::find($id);
        $this->validate($request,
        [
-            //Kiểm tra đúng file đuôi .jpg,.jpeg,.png.gif và dung lượng không quá 2M
             'img_1' => 'mimes:jpg,jpeg,png,gif|max:2048',
             'img_2' => 'mimes:jpg,jpeg,png,gif|max:2048',
             'img_3' => 'mimes:jpg,jpeg,png,gif|max:2048',
         ],			
         [
-            //Tùy chỉnh hiển thị thông báo không thõa điều kiện
             'img_1.mimes' => 'Chỉ chấp nhận hình thẻ với đuôi .jpg .jpeg .png .gif',
             'img_2.mimes' => 'Chỉ chấp nhận hình thẻ với đuôi .jpg .jpeg .png .gif',
             'img_3.mimes' => 'Chỉ chấp nhận hình thẻ với đuôi .jpg .jpeg .png .gif',
@@ -91,7 +89,7 @@ class Product_imgController extends Controller
            
         }
         $product_img->save();
-        return redirect('admin/product_img/list/'.$id)->with('thongbao','Update thành công.');
+        return redirect('admin/product_img/list/'.$id)->with('thongbao','Cập nhật thành công rồi nè.');
    }
 
    public function getDeleteSize($id)
