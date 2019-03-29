@@ -5,7 +5,7 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">Thông tin cửa hàng</h1>
+          <h1 class="h3 mb-2 text-gray-800">THÔNG TIN CỬA HÀNG</h1>
           @if(session('thongbao'))
             <div class="alert alert-success">
               {{session('thongbao')}}
