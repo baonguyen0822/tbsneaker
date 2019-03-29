@@ -17,7 +17,7 @@ class ProductController extends Controller
     {
         $product = Product::orderBy('id','DESC')->paginate(10);
         //cách 1
-        return view('admin.product.list',['product'=>$product]);
+        return view('admin.product.list',compact('product'));
     }
     public function getThemsp()
     {
@@ -118,7 +118,7 @@ class ProductController extends Controller
         $product->save();
         return redirect('admin/product/list')->with('thongbao','Đã Update sản phẩm.');
     }
-    
+    /*
     public function postXoasp($id)
     {
         $product = Product::find($id);
@@ -127,5 +127,6 @@ class ProductController extends Controller
         $product_img->delete();
         return redirect('admin/product/list')->with('thongbao','Bạn đã xóa sản phẩm.');
     }
+    */
     
 }
