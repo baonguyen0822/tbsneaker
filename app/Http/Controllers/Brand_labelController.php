@@ -31,7 +31,7 @@ class Brand_labelController extends Controller
         $brand_label->name = $request->name;
         $brand_label->status = $request->status;
         $brand_label->save();
-        return redirect('admin/brand_label/list')->with('thongbao','Bạn có thêm một loại sản phẩm mới.');
+        return redirect('admin/brand_label/list')->with('thongbao','Ban da them mot loai san pham thanh cong.');
     }
 
     public function getEditBrand($id)
