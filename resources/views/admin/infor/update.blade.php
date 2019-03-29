@@ -71,7 +71,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="name">Địa chỉ</label>
+                                        <label for="name">Address</label>
                                         <input class="form-control" name="address" placeholder="Địa chỉ..." 
                                         value="{{$infor->address}}">
                                     </div>
