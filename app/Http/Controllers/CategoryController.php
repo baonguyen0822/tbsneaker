@@ -24,7 +24,7 @@ class CategoryController extends Controller
                 'name'=>'required',
             ],
             [
-                'name.required'=>'Bạn chưa nhập tên hãng.'
+                'name.required'=>'Ban chua nhap ten thuong hieu.'
             ]);
         $category = new Category();
         $category->name = $request->name;
