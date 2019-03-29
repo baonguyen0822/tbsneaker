@@ -16,14 +16,12 @@ class ProductController extends Controller
     public function getDanhSach()
     {
         $product = Product::orderBy('id','DESC')->paginate(10);
-        //cách 1
         return view('admin.product.list',compact('product'));
     }
     public function getThemsp()
     {
         $category = Category::all();
         $brand_label = Brand_label::all();
-        //cách 2
         return view('admin.product.add',compact('category','brand_label'));
     }
 
@@ -87,14 +85,14 @@ class ProductController extends Controller
         $product = Product::find($id);
         $this->validate($request,
         [
-            'name' => 'required|min:5|max:100',
+            'name' => 'required|min:5|max:50',
             'price' => 'required',
             'price_sale' => 'required',
             'qty' => 'required',
         ],
         [  
             'name.required'=>'Bạn chưa nhập tên sản phẩm',
-            'name.min'=>'Tên sản phẩm phải có ít nhất 5 và nhỏ hơn 100 ký tự',
+            'name.min'=>'Tên sản phẩm phải có ít nhất 5 và nhỏ hơn 50 ký tự',
             'price.required'=>'Bạn chưa nhập giá sản phẩm',
             'price_sale.required'=>'Bạn chưa nhập giá sale sản phẩm',
             'qty.required'=>'Bạn chưa nhập số lượng sản phẩm',
@@ -118,7 +116,7 @@ class ProductController extends Controller
         $product->save();
         return redirect('admin/product/list')->with('thongbao','Đã Update sản phẩm.');
     }
-    /*
+    
     public function postXoasp($id)
     {
         $product = Product::find($id);
@@ -127,6 +125,5 @@ class ProductController extends Controller
         $product_img->delete();
         return redirect('admin/product/list')->with('thongbao','Bạn đã xóa sản phẩm.');
     }
-    */
     
 }
