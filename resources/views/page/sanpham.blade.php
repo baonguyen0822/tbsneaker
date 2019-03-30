@@ -32,7 +32,6 @@
 								@endforeach
 							</ul>
 						</li>
-
 						<li class="main-nav-list"><a data-toggle="collapse" href="#meatFish" aria-expanded="false" aria-controls="meatFish"><span
 								 class="lnr lnr-arrow-right"></span>Thể loại<span class="number"></span></a>
 							<ul class="collapse" id="meatFish" data-toggle="collapse" aria-expanded="false" aria-controls="meatFish">

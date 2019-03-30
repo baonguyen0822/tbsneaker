@@ -16,7 +16,6 @@
         </div>
     </section>
     <!-- End Banner Area -->
-
     <!--================Checkout Area =================-->
     <section class="checkout_area section_gap">
         <div class="container"> 

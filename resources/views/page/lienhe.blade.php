@@ -15,7 +15,6 @@
 		</div>
 	</section>
 	<!-- End Banner Area -->
-
 	<!--================Contact Area =================-->
 	<section class="contact_area section_gap_bottom">
 		<div class="container">	

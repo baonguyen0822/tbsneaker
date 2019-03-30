@@ -36,7 +36,6 @@
 		</div>
 	</section>
 	<!-- End banner Area -->
-
 	<!-- start features Area -->
 	<section class="features-area section_gap">
 		<div class="container">

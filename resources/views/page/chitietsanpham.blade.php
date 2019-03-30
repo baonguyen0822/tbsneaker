@@ -56,8 +56,7 @@
 						@else
 						<h3 style="text-align:center;">Sale: {{$product->price_sale}} $</h3>
 						<h5 style="text-align:center;">{{$product->price}} $</h5>
-						@endif
-						
+						@endif	
 						<div class="product_count">
 							<label for="qty">Quantity:</label>
 							<input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:" class="input-text qty">

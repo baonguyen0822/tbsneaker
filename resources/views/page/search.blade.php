@@ -32,7 +32,6 @@
 								<li class="main-nav-list child"><a href="#">Meat<span class="number">(11)</span></a></li>
 							</ul>
 						</li>
-
 						<li class="main-nav-list"><a data-toggle="collapse" href="#meatFish" aria-expanded="false" aria-controls="meatFish"><span
 								 class="lnr lnr-arrow-right"></span>Meat and Fish<span class="number">(53)</span></a>
 							<ul class="collapse" id="meatFish" data-toggle="collapse" aria-expanded="false" aria-controls="meatFish">

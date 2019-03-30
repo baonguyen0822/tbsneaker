@@ -15,7 +15,6 @@
         </div>
     </section>
     <!-- End Banner Area -->
-
     <!--================Tracking Box Area =================-->
     <section class="tracking_box_area section_gap">
         <div class="container">
