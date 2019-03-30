@@ -5,7 +5,7 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2 text-gray-800">Danh sách các slide</h1>
+          <h1 class="h3 mb-2 text-gray-800">Danh sách các Slide</h1>
           @if(session('thongbao'))
             <div class="alert alert-success">
               {{session('thongbao')}}
