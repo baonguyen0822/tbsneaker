@@ -83,14 +83,9 @@
 					</div>
 				</section>
 				<div class="row">{{$product->links()}}</div>
-				<!-- End Best Seller -->
-				<!-- Start Filter Bar -->
-				
 				<!-- End Filter Bar -->
 			</div>
 		</div>
   </div>
-
-
 @include('layout.related')
 @endsection
