@@ -60,5 +60,4 @@
 		</div>
 	</section>
 	<!--================End Login Box Area =================-->
-
 @endsection
