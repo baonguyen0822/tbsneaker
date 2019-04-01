@@ -83,7 +83,6 @@
 				<div class="row">{{$product->links()}}</div>
 				<!-- End Best Seller -->
 				<!-- Start Filter Bar -->
-				
 				<!-- End Filter Bar -->
 			</div>
 		</div>
