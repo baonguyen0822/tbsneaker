@@ -98,7 +98,6 @@
 				<!-- End Filter Bar -->
 			</div>
 		</div>
-    </div>
-		
+    </div>	
 @include('layout.related')
 @endsection
