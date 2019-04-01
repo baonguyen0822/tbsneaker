@@ -3,7 +3,7 @@
         <div></div>
         <h3><font color="#FF9600">Thông tin khách hàng</font></h3>
         <p>
-            <strong class="info">Khách hàng: </strong>
+            <strong class="info">Khách Hàng: </strong>
             {{$info['name']}}
         </p>
         <p>
