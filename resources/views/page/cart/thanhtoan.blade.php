@@ -6,7 +6,7 @@
         <div class="container">
             <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
                 <div class="col-first">
-                    <h1>Thanh toán</h1>
+                    <h1>Thanh Toán</h1>
                     <nav class="d-flex align-items-center">
                         <a href="trangchu">Trang chủ<span class="lnr lnr-arrow-right"></span></a>
                         <a style="color:white;">Thanh toán</a>
