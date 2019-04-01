@@ -84,7 +84,6 @@
 		</div>
 	</section>
 	<!-- end features Area -->
-
 	<!-- Start category Area -->
 	<section class="category-area">
 		<div class="container">
