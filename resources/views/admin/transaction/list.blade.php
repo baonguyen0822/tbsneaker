@@ -1,7 +1,7 @@
 @extends('admin.layout.index')
 @section('content')
 
-        <!-- Begin Page Content -->
+        <!-- Begin Page Content-->
         <div class="container-fluid">
 
           <!-- Page Heading -->
