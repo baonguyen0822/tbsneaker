@@ -28,7 +28,6 @@
 		</div>
 	</section>
 	<!-- End Banner Area -->
-
 	<!--================Single Product Area =================-->
 	<div class="product_image_area">
 		<div class="container">
